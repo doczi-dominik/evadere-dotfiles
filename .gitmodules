@@ -1,0 +1,9 @@
+[submodule "evadere-dwm"]
+	path = evadere-dwm
+	url = https://github.com/doczi-dominik/evadere-dwm
+[submodule "evadere-bar"]
+	path = evadere-bar
+	url = https://github.com/doczi-dominik/evadere-bar
+[submodule "evadere-st"]
+	path = evadere-st
+	url = https://github.com/doczi-dominik/evadere-st
