@@ -1,0 +1,105 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 1.7.0
+ **/
+* {
+    background-color: transparent;
+    text-color: white;
+}
+
+element {
+    padding: 1px ;
+    cursor:  pointer;
+    spacing: 5px ;
+    border:  0;
+}
+
+element-text {
+    cursor:           inherit;
+    highlight:        inherit;
+}
+
+element-text selected {
+    text-color: #FFC637;
+}
+
+element-icon {
+    size:             1.0000em ;
+    cursor:           inherit;
+}
+window {
+    padding:          30% 25% 0;
+    width:            100%;
+    height:           100%;
+    border:           0;
+    background-color: rgba(0, 0, 0, 85%);
+}
+mainbox {
+    padding: 0;
+    border:  0;
+}
+message {
+    padding:      1px ;
+    border-color: transparent;
+    border:       2px dash 0px 0px ;
+}
+
+listview {
+    padding:      2px 0px 0px ;
+    scrollbar:    true;
+    border-color: transparent;
+    spacing:      2px ;
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: transparent;
+}
+sidebar {
+    border-color: transparent;
+    border:       2px dash 0px 0px ;
+}
+button {
+    cursor:     pointer;
+    spacing:    0;
+}
+
+num-filtered-rows {
+    expand:     false;
+}
+num-rows {
+    expand:     false;
+}
+
+textbox-num-sep {
+    expand:     false;
+    str:        "/";
+}
+
+inputbar {
+    padding:    1px ;
+    spacing:    0px ;
+    children:   [ prompt,textbox-prompt-colon,entry,num-filtered-rows,textbox-num-sep,num-rows,case-indicator ];
+}
+
+case-indicator {
+    spacing:    0;
+    text-color: transparent;
+}
+entry {
+    cursor:            text;
+    spacing:           0;
+}
+prompt {
+    spacing:    0;
+}
+textbox-prompt-colon {
+    enabled:    false;
+    margin:     0px 0.3000em 0.0000em 0.0000em ;
+    expand:     false;
+    str:        ":";
+}
